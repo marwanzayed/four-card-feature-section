@@ -1,0 +1,226 @@
+:root {
+  --main-color: hsl(229, 6%, 66%); 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px
+}
+.logo,
+.h3,
+.age {
+  text-align: center;
+
+}
+.logo,
+.h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+.logo {
+  color: var(--main-color);
+  margin-top: 30px;
+}
+.age {
+  color: var(--main-color);
+  width: 400px; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  font-size: 14px;
+}
+.p {
+  color: var(--main-color);
+  padding-left: 10px;
+}
+
+.supervisor {
+  width: 250px;
+  height: 200px;
+  box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+  border-top: 3px solid hsl(180, 62%, 55%);
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-right: -20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.team-Builder {
+  width: 250px;
+  height: 200px;
+  box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+  border-top: 3px solid hsl(0, 78%, 62%);
+  justify-content: center;
+  align-items: center;  
+  margin-top: 217px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.karma {
+  width: 250px;
+  height: 200px;
+  box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+  border-top: 3px solid hsl(34, 97%, 64%);
+  margin-left: -250px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;  
+}
+.Calculator {
+  width: 250px;
+  height: 200px;
+  box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+  border-top: 3px solid hsl(212, 86%, 64%);
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+@media (max-width: 400px) {
+  .team-Builder {
+    margin-top: 217px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .karma {
+    margin-left: -252px;
+    margin-bottom: 50px;
+  }
+  .supervisor {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .Calculator {
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 992px) {
+
+  .team-Builder {
+    margin-top: 270px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .karma {
+    margin-left: -252px;
+    margin-bottom: 50px;
+    margin-top: 14px;
+  }
+  .supervisor {
+    margin-left: -60px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+  }
+  .Calculator {
+    margin-left: -529px;
+    margin-top: 270px;
+  }
+}
+@media (min-width: 885px) and (max-width: 1000px) {
+  .flex {
+    margin-left: 270px !important
+  }
+  .supervisor {
+    width: 250px;
+    height: 200px;
+    box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+    border-top: 3px solid hsl(180, 62%, 55%);
+    margin-left: -209px;
+    margin-bottom: 50px;
+    margin-right: -20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .team-Builder {
+    width: 250px;
+    height: 200px;
+    box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+    border-top: 3px solid hsl(0, 78%, 62%);
+    justify-content: center;
+    align-items: center;  
+    margin-top: 245px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .karma {
+    width: 250px;
+    height: 200px;
+    box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+    border-top: 3px solid hsl(34, 97%, 64%);
+    margin-left: -250px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;  
+  }
+  .Calculator {
+    width: 250px;
+    height: 200px;
+    box-shadow: 3px 3px 7px hsl(229, 6%, 66%);
+    border-top: 3px solid hsl(212, 86%, 64%);
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 400px) and (max-width: 675px) {
+  .supervisor {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .team-Builder {
+    margin-top: 245px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .karma {
+    margin-left: -252px;
+    margin-bottom: 50px;
+  }
+  .Calculator {
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+}
+
+.name {
+  padding-left: 10px;
+}
+.supervisor img {
+  margin-top: -13px;
+  margin-left: 160px;
+}
+.team-Builder img {
+  margin-top: -13px;
+  margin-left: 160px;
+}
+.karma img {
+  margin-top: -13px;
+  margin-left: 160px;
+}
+.Calculator img {
+  margin-top: -13px;
+  margin-left: 160px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 160px;
+}
+
+@media (max-width: 400px) {
+  .flex {
+    flex-wrap: wrap;
+    margin-left: 11%;
+  }
+  .age {
+    width: 300px;
+  }
+}
